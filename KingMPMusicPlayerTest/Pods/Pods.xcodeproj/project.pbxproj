@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A68B592CF259731728A303DA2CCE24D /* CLMediaTypeEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 164E70177DEE41A6B6D8540DA06597D0 /* CLMediaTypeEntry.m */; };
+		11C9BB430200F93AD3185C1285CF2B3D /* Pods-KingMPMusicPlayerTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D83B4C97C39A33466C03A1B42AA3D2 /* Pods-KingMPMusicPlayerTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12A6AC61C89DEBFBA1BD0BE59CCFE6DC /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5AB4E215D0B0AFA99B93524C179569FB /* de.lproj */; };
+		15B1DDA6ED2B5F91B293743D04F238A6 /* CLMediaPickerLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13ABC4C7E4A148C6E790EC6679735D98 /* CLMediaPickerLocalization.bundle */; };
+		1EA3B5D7BFBF29331C13147361F2DA1A /* Pods-KingMPMusicPlayerTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FABCD0BCE90D5121EA02EFA273B3C8 /* Pods-KingMPMusicPlayerTest-dummy.m */; };
+		28415A3BFD6588D4610D119DF086565E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		38001D265F50AFD64DDF26D667956AEC /* UIButton+CLExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 748D839FFF6243C6D0993007E9C91287 /* UIButton+CLExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AEC475303D64F0AD737387FB5F33839 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C102B29488B75B6BB4BE7BAE597D3F05 /* en.lproj */; };
+		56C6D75C55083BEE68BBE54962D38570 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 54D81A159B461EE527592EC4C0FE0F1A /* zh-Hant.lproj */; };
+		5ED6B59A4AB41D9A25A9D8FB647719B3 /* CLMediaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F416E84F953E38A3EE30360B8CD75703 /* CLMediaPicker.m */; };
+		6AA1E26B70BCD7E560F62FB4F29C8178 /* CLMediaPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E46305AC5D62ED959347E15D8833F2 /* CLMediaPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74A64D794C5986CD6B1DA5010EC8CA0F /* CLMediaTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E3ED9A66578DD26F9EAED646355633 /* CLMediaTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF6049D726B046B624F42643C125801 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F2D9DFBA530BE031255F686AC8C05BD9 /* ko.lproj */; };
+		870C3A2033122968D776476F6BD66851 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ECA1CF0FE7C5DAD2E85D4FF551D8F27C /* fr.lproj */; };
+		8F334591C8E6B9900DCB8BB7135257FB /* UIButton+CLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 994F4BFDC39D3B43FCF2B7C904ACC6E6 /* UIButton+CLExtensions.m */; };
+		9161A6E54D70ED7037BA6FF1EE6C99C8 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 52624E8E55F3974E54F230519F412253 /* it.lproj */; };
+		9F785B9582EE7CC25D811B0EB57D445B /* CLMediaPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 994E2B17E6C05FD813CB696BF832D263 /* CLMediaPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1497B3F49F3AE0E78F43A4C32C5749E /* CLMediaPickerImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA6580DF62354B2479C88EBE9387C94 /* CLMediaPickerImages.xcassets */; };
+		ABE68877958FBEE45EE3F432F722DDC1 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4015869D9A40AC84585004E42B9F8263 /* es.lproj */; };
+		B0DBBA0FF14EF6A6A291E95F256A5871 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DB23D07E77BDE16DD279CDE25F471 /* zh-Hans.lproj */; };
+		B42ECC71C57B9F52D34773B075BD84F5 /* CLMediaPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4806A2F91D0575B2EC838015F2605CEC /* CLMediaPicker-dummy.m */; };
+		B76AAD4888F5481111A675A8A06C8162 /* CLMediaTypeEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 51767207A69FB65EFA655629FD107FC5 /* CLMediaTypeEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E4C576F794DF06EBC9951BE728D98B /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E50E24EB682BE6B3762CA2E63984E00A /* ru.lproj */; };
+		C1A8FA502F8DD058393DC9CCE5E21D12 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E4F27ABA0C20AF4649A02633E0A7D3A9 /* ja.lproj */; };
+		CC6204B8EC23054E8EF309950799BAD1 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D3EAEDF3BEECEEBA333F4E76798C8866 /* pt.lproj */; };
+		D304129C1C318C71164A1BAB4D665A87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E3A6F76845CF9C122C1FFD5D5367365E /* CLMediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AB8CD093017072B00D15EC5B2724E7 /* CLMediaTableViewCell.m */; };
+		EDC55E300093FB196BBA674B990451CD /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DD3B983DFF719B32B0E4F6C86C2A0DF2 /* nl.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		347F6039FE1C35E4E132971239ABC4AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 987671C4A8DD8E010721ED928371F43E;
+			remoteInfo = CLMediaPicker;
+		};
+		6FFEF78EEF5AF1EF94DB7D3A3E2CC999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 667D0E42B55B9F17DE89A8EFA8799273;
+			remoteInfo = "CLMediaPicker-CLMediaPickerLocalization";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018A7DDD685C8CED421D69B22E76A0C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0570B7CFCBEBF8461694DA0F7A41A4D9 /* CLMediaPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CLMediaPicker.framework; path = CLMediaPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13ABC4C7E4A148C6E790EC6679735D98 /* CLMediaPickerLocalization.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CLMediaPickerLocalization.bundle; path = CLMediaPickerLocalization.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		164E70177DEE41A6B6D8540DA06597D0 /* CLMediaTypeEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLMediaTypeEntry.m; sourceTree = "<group>"; };
+		1F6DB23D07E77BDE16DD279CDE25F471 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		31FABCD0BCE90D5121EA02EFA273B3C8 /* Pods-KingMPMusicPlayerTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KingMPMusicPlayerTest-dummy.m"; sourceTree = "<group>"; };
+		4015869D9A40AC84585004E42B9F8263 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = es.lproj; sourceTree = "<group>"; };
+		467F94CEA5F4D12D81ECA177C5F74A2B /* CLMediaPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CLMediaPicker.modulemap; sourceTree = "<group>"; };
+		46D83B4C97C39A33466C03A1B42AA3D2 /* Pods-KingMPMusicPlayerTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KingMPMusicPlayerTest-umbrella.h"; sourceTree = "<group>"; };
+		47C79486219FD35CFA20F5F88FF10CBF /* Pods-KingMPMusicPlayerTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KingMPMusicPlayerTest.modulemap"; sourceTree = "<group>"; };
+		4806A2F91D0575B2EC838015F2605CEC /* CLMediaPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLMediaPicker-dummy.m"; sourceTree = "<group>"; };
+		51767207A69FB65EFA655629FD107FC5 /* CLMediaTypeEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLMediaTypeEntry.h; sourceTree = "<group>"; };
+		52624E8E55F3974E54F230519F412253 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = it.lproj; sourceTree = "<group>"; };
+		54D81A159B461EE527592EC4C0FE0F1A /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = "zh-Hant.lproj"; sourceTree = "<group>"; };
+		5AB4E215D0B0AFA99B93524C179569FB /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = de.lproj; sourceTree = "<group>"; };
+		63AEF0F882AB20A20C6E420E03F8CB87 /* Pods-KingMPMusicPlayerTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KingMPMusicPlayerTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BA6580DF62354B2479C88EBE9387C94 /* CLMediaPickerImages.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = CLMediaPickerImages.xcassets; sourceTree = "<group>"; };
+		748D839FFF6243C6D0993007E9C91287 /* UIButton+CLExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+CLExtensions.h"; sourceTree = "<group>"; };
+		74FCFC2F6369EA4A4C28155B247A7CC3 /* CLMediaPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLMediaPicker.xcconfig; sourceTree = "<group>"; };
+		75E3ED9A66578DD26F9EAED646355633 /* CLMediaTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLMediaTableViewCell.h; sourceTree = "<group>"; };
+		7616D154CEFABE18BEB1AECA57C4CEAA /* Pods-KingMPMusicPlayerTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KingMPMusicPlayerTest-resources.sh"; sourceTree = "<group>"; };
+		77FBEF9740729136CEF4E0660F96FB5D /* Pods-KingMPMusicPlayerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KingMPMusicPlayerTest.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AB8CD093017072B00D15EC5B2724E7 /* CLMediaTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLMediaTableViewCell.m; sourceTree = "<group>"; };
+		980BED7D787EA202FA852E352689A61D /* Pods-KingMPMusicPlayerTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KingMPMusicPlayerTest-frameworks.sh"; sourceTree = "<group>"; };
+		994E2B17E6C05FD813CB696BF832D263 /* CLMediaPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLMediaPicker.h; sourceTree = "<group>"; };
+		994F4BFDC39D3B43FCF2B7C904ACC6E6 /* UIButton+CLExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CLExtensions.m"; sourceTree = "<group>"; };
+		A9C5BA824247BDB22BF4DFA2852526D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7C890CA446C42FF32DF31CC25FFCCE /* ResourceBundle-CLMediaPickerLocalization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CLMediaPickerLocalization-Info.plist"; sourceTree = "<group>"; };
+		C102B29488B75B6BB4BE7BAE597D3F05 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = en.lproj; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3EAEDF3BEECEEBA333F4E76798C8866 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = pt.lproj; sourceTree = "<group>"; };
+		D4606AF20560423F51FF42D6FD047AAB /* Pods-KingMPMusicPlayerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KingMPMusicPlayerTest.release.xcconfig"; sourceTree = "<group>"; };
+		D5AC313D8A5C954362E574D5A50352DE /* Pods_KingMPMusicPlayerTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KingMPMusicPlayerTest.framework; path = "Pods-KingMPMusicPlayerTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81F59558997D366C9518542321FF06A /* CLMediaPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLMediaPicker-prefix.pch"; sourceTree = "<group>"; };
+		DD3B983DFF719B32B0E4F6C86C2A0DF2 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = nl.lproj; sourceTree = "<group>"; };
+		DFFFF6A303DF643B3E175FE964ACD269 /* Pods-KingMPMusicPlayerTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KingMPMusicPlayerTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1E46305AC5D62ED959347E15D8833F2 /* CLMediaPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLMediaPicker-umbrella.h"; sourceTree = "<group>"; };
+		E4F27ABA0C20AF4649A02633E0A7D3A9 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ja.lproj; sourceTree = "<group>"; };
+		E50E24EB682BE6B3762CA2E63984E00A /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ru.lproj; sourceTree = "<group>"; };
+		ECA1CF0FE7C5DAD2E85D4FF551D8F27C /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = fr.lproj; sourceTree = "<group>"; };
+		F2D9DFBA530BE031255F686AC8C05BD9 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ko.lproj; sourceTree = "<group>"; };
+		F416E84F953E38A3EE30360B8CD75703 /* CLMediaPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLMediaPicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601FCA9B13F758F436AB7E589BA8EAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B7C2BEF7FB27C38CCB5F5342EFC4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D304129C1C318C71164A1BAB4D665A87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EE56A31819964F3A2649F974027949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28415A3BFD6588D4610D119DF086565E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DCDA97BDF669158C6AA6B15EA42D61 /* CLMediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				384F0C45D15C1217B9B1DD5B372876EA /* CLMediaPicker */,
+				F34E2960094B6EAD5B7A154929236700 /* Resources */,
+				0CD2DE6647B9C5D2098D38690E971BE9 /* Support Files */,
+			);
+			name = CLMediaPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0CD2DE6647B9C5D2098D38690E971BE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				467F94CEA5F4D12D81ECA177C5F74A2B /* CLMediaPicker.modulemap */,
+				74FCFC2F6369EA4A4C28155B247A7CC3 /* CLMediaPicker.xcconfig */,
+				4806A2F91D0575B2EC838015F2605CEC /* CLMediaPicker-dummy.m */,
+				D81F59558997D366C9518542321FF06A /* CLMediaPicker-prefix.pch */,
+				E1E46305AC5D62ED959347E15D8833F2 /* CLMediaPicker-umbrella.h */,
+				018A7DDD685C8CED421D69B22E76A0C0 /* Info.plist */,
+				AA7C890CA446C42FF32DF31CC25FFCCE /* ResourceBundle-CLMediaPickerLocalization-Info.plist */,
+			);
+			name = "Support Files";
+			path = "KingMPMusicPlayerTest/Pods/Target Support Files/CLMediaPicker";
+			sourceTree = "<group>";
+		};
+		384F0C45D15C1217B9B1DD5B372876EA /* CLMediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				994E2B17E6C05FD813CB696BF832D263 /* CLMediaPicker.h */,
+				F416E84F953E38A3EE30360B8CD75703 /* CLMediaPicker.m */,
+				75E3ED9A66578DD26F9EAED646355633 /* CLMediaTableViewCell.h */,
+				94AB8CD093017072B00D15EC5B2724E7 /* CLMediaTableViewCell.m */,
+				51767207A69FB65EFA655629FD107FC5 /* CLMediaTypeEntry.h */,
+				164E70177DEE41A6B6D8540DA06597D0 /* CLMediaTypeEntry.m */,
+				748D839FFF6243C6D0993007E9C91287 /* UIButton+CLExtensions.h */,
+				994F4BFDC39D3B43FCF2B7C904ACC6E6 /* UIButton+CLExtensions.m */,
+			);
+			name = CLMediaPicker;
+			path = CLMediaPicker;
+			sourceTree = "<group>";
+		};
+		3F43265B6105F46E712D44B6368999FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0570B7CFCBEBF8461694DA0F7A41A4D9 /* CLMediaPicker.framework */,
+				13ABC4C7E4A148C6E790EC6679735D98 /* CLMediaPickerLocalization.bundle */,
+				D5AC313D8A5C954362E574D5A50352DE /* Pods_KingMPMusicPlayerTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6436DD091A6EB4A7D30132C4CE494CEE /* Pods-KingMPMusicPlayerTest */ = {
+			isa = PBXGroup;
+			children = (
+				A9C5BA824247BDB22BF4DFA2852526D2 /* Info.plist */,
+				47C79486219FD35CFA20F5F88FF10CBF /* Pods-KingMPMusicPlayerTest.modulemap */,
+				63AEF0F882AB20A20C6E420E03F8CB87 /* Pods-KingMPMusicPlayerTest-acknowledgements.markdown */,
+				DFFFF6A303DF643B3E175FE964ACD269 /* Pods-KingMPMusicPlayerTest-acknowledgements.plist */,
+				31FABCD0BCE90D5121EA02EFA273B3C8 /* Pods-KingMPMusicPlayerTest-dummy.m */,
+				980BED7D787EA202FA852E352689A61D /* Pods-KingMPMusicPlayerTest-frameworks.sh */,
+				7616D154CEFABE18BEB1AECA57C4CEAA /* Pods-KingMPMusicPlayerTest-resources.sh */,
+				46D83B4C97C39A33466C03A1B42AA3D2 /* Pods-KingMPMusicPlayerTest-umbrella.h */,
+				77FBEF9740729136CEF4E0660F96FB5D /* Pods-KingMPMusicPlayerTest.debug.xcconfig */,
+				D4606AF20560423F51FF42D6FD047AAB /* Pods-KingMPMusicPlayerTest.release.xcconfig */,
+			);
+			name = "Pods-KingMPMusicPlayerTest";
+			path = "Target Support Files/Pods-KingMPMusicPlayerTest";
+			sourceTree = "<group>";
+		};
+		6868CCD196965C428C612EF32E0B1F80 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09DCDA97BDF669158C6AA6B15EA42D61 /* CLMediaPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6868CCD196965C428C612EF32E0B1F80 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3F43265B6105F46E712D44B6368999FE /* Products */,
+				D88707C189D379716E3FBB88C62850CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90C4F869EDDFF84C3FC0EFEA85159996 /* CLMediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6BA6580DF62354B2479C88EBE9387C94 /* CLMediaPickerImages.xcassets */,
+				9FD120AC670AB474918C77DF80CF9C50 /* CLMediaPickerLocalization.bundle */,
+			);
+			name = CLMediaPicker;
+			path = CLMediaPicker;
+			sourceTree = "<group>";
+		};
+		9FD120AC670AB474918C77DF80CF9C50 /* CLMediaPickerLocalization.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				5AB4E215D0B0AFA99B93524C179569FB /* de.lproj */,
+				C102B29488B75B6BB4BE7BAE597D3F05 /* en.lproj */,
+				4015869D9A40AC84585004E42B9F8263 /* es.lproj */,
+				ECA1CF0FE7C5DAD2E85D4FF551D8F27C /* fr.lproj */,
+				52624E8E55F3974E54F230519F412253 /* it.lproj */,
+				E4F27ABA0C20AF4649A02633E0A7D3A9 /* ja.lproj */,
+				F2D9DFBA530BE031255F686AC8C05BD9 /* ko.lproj */,
+				DD3B983DFF719B32B0E4F6C86C2A0DF2 /* nl.lproj */,
+				D3EAEDF3BEECEEBA333F4E76798C8866 /* pt.lproj */,
+				E50E24EB682BE6B3762CA2E63984E00A /* ru.lproj */,
+				1F6DB23D07E77BDE16DD279CDE25F471 /* zh-Hans.lproj */,
+				54D81A159B461EE527592EC4C0FE0F1A /* zh-Hant.lproj */,
+			);
+			name = CLMediaPickerLocalization.bundle;
+			path = CLMediaPickerLocalization.bundle;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D88707C189D379716E3FBB88C62850CA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6436DD091A6EB4A7D30132C4CE494CEE /* Pods-KingMPMusicPlayerTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F34E2960094B6EAD5B7A154929236700 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90C4F869EDDFF84C3FC0EFEA85159996 /* CLMediaPicker */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B738F5786F11E423F9EC7B329629242E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA1E26B70BCD7E560F62FB4F29C8178 /* CLMediaPicker-umbrella.h in Headers */,
+				9F785B9582EE7CC25D811B0EB57D445B /* CLMediaPicker.h in Headers */,
+				74A64D794C5986CD6B1DA5010EC8CA0F /* CLMediaTableViewCell.h in Headers */,
+				B76AAD4888F5481111A675A8A06C8162 /* CLMediaTypeEntry.h in Headers */,
+				38001D265F50AFD64DDF26D667956AEC /* UIButton+CLExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7DE35B854E21EE7F62B4F5CB0CDF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C9BB430200F93AD3185C1285CF2B3D /* Pods-KingMPMusicPlayerTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		667D0E42B55B9F17DE89A8EFA8799273 /* CLMediaPicker-CLMediaPickerLocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EA4D3CC6493EA11596CBCD779598A3 /* Build configuration list for PBXNativeTarget "CLMediaPicker-CLMediaPickerLocalization" */;
+			buildPhases = (
+				4119E39FF5CFF7F242F93F1DEC65B671 /* Sources */,
+				601FCA9B13F758F436AB7E589BA8EAAA /* Frameworks */,
+				1A7F17EFBB2B315A8E7394BBD2A2E8AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CLMediaPicker-CLMediaPickerLocalization";
+			productName = "CLMediaPicker-CLMediaPickerLocalization";
+			productReference = 13ABC4C7E4A148C6E790EC6679735D98 /* CLMediaPickerLocalization.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		987671C4A8DD8E010721ED928371F43E /* CLMediaPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A3CBAC20C1EE29EDC52C053D78B892 /* Build configuration list for PBXNativeTarget "CLMediaPicker" */;
+			buildPhases = (
+				CD02A2E14A3F305D1ECF006623DEF649 /* Sources */,
+				80B7C2BEF7FB27C38CCB5F5342EFC4EB /* Frameworks */,
+				489992A473276926D996C275C4E65D9E /* Resources */,
+				B738F5786F11E423F9EC7B329629242E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F9CF09143CFF7934FAC1FB608896F7 /* PBXTargetDependency */,
+			);
+			name = CLMediaPicker;
+			productName = CLMediaPicker;
+			productReference = 0570B7CFCBEBF8461694DA0F7A41A4D9 /* CLMediaPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1E60DA129701B9C4CF0ADBC16B72464 /* Pods-KingMPMusicPlayerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4369EDFB7CE7FD00A348FA9F18A040C3 /* Build configuration list for PBXNativeTarget "Pods-KingMPMusicPlayerTest" */;
+			buildPhases = (
+				99228B267384DE2F7E438BE741C6CF3D /* Sources */,
+				90EE56A31819964F3A2649F974027949 /* Frameworks */,
+				C0F7DE35B854E21EE7F62B4F5CB0CDF6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E171F0EB1F13CF7E893D2E106A7C939D /* PBXTargetDependency */,
+			);
+			name = "Pods-KingMPMusicPlayerTest";
+			productName = "Pods-KingMPMusicPlayerTest";
+			productReference = D5AC313D8A5C954362E574D5A50352DE /* Pods_KingMPMusicPlayerTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3F43265B6105F46E712D44B6368999FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				987671C4A8DD8E010721ED928371F43E /* CLMediaPicker */,
+				667D0E42B55B9F17DE89A8EFA8799273 /* CLMediaPicker-CLMediaPickerLocalization */,
+				F1E60DA129701B9C4CF0ADBC16B72464 /* Pods-KingMPMusicPlayerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A7F17EFBB2B315A8E7394BBD2A2E8AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A6AC61C89DEBFBA1BD0BE59CCFE6DC /* de.lproj in Resources */,
+				4AEC475303D64F0AD737387FB5F33839 /* en.lproj in Resources */,
+				ABE68877958FBEE45EE3F432F722DDC1 /* es.lproj in Resources */,
+				870C3A2033122968D776476F6BD66851 /* fr.lproj in Resources */,
+				9161A6E54D70ED7037BA6FF1EE6C99C8 /* it.lproj in Resources */,
+				C1A8FA502F8DD058393DC9CCE5E21D12 /* ja.lproj in Resources */,
+				7DF6049D726B046B624F42643C125801 /* ko.lproj in Resources */,
+				EDC55E300093FB196BBA674B990451CD /* nl.lproj in Resources */,
+				CC6204B8EC23054E8EF309950799BAD1 /* pt.lproj in Resources */,
+				C0E4C576F794DF06EBC9951BE728D98B /* ru.lproj in Resources */,
+				B0DBBA0FF14EF6A6A291E95F256A5871 /* zh-Hans.lproj in Resources */,
+				56C6D75C55083BEE68BBE54962D38570 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489992A473276926D996C275C4E65D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1497B3F49F3AE0E78F43A4C32C5749E /* CLMediaPickerImages.xcassets in Resources */,
+				15B1DDA6ED2B5F91B293743D04F238A6 /* CLMediaPickerLocalization.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4119E39FF5CFF7F242F93F1DEC65B671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99228B267384DE2F7E438BE741C6CF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA3B5D7BFBF29331C13147361F2DA1A /* Pods-KingMPMusicPlayerTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD02A2E14A3F305D1ECF006623DEF649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42ECC71C57B9F52D34773B075BD84F5 /* CLMediaPicker-dummy.m in Sources */,
+				5ED6B59A4AB41D9A25A9D8FB647719B3 /* CLMediaPicker.m in Sources */,
+				E3A6F76845CF9C122C1FFD5D5367365E /* CLMediaTableViewCell.m in Sources */,
+				0A68B592CF259731728A303DA2CCE24D /* CLMediaTypeEntry.m in Sources */,
+				8F334591C8E6B9900DCB8BB7135257FB /* UIButton+CLExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43F9CF09143CFF7934FAC1FB608896F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CLMediaPicker-CLMediaPickerLocalization";
+			target = 667D0E42B55B9F17DE89A8EFA8799273 /* CLMediaPicker-CLMediaPickerLocalization */;
+			targetProxy = 6FFEF78EEF5AF1EF94DB7D3A3E2CC999 /* PBXContainerItemProxy */;
+		};
+		E171F0EB1F13CF7E893D2E106A7C939D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CLMediaPicker;
+			target = 987671C4A8DD8E010721ED928371F43E /* CLMediaPicker */;
+			targetProxy = 347F6039FE1C35E4E132971239ABC4AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1523648C57FC50206653F0E3DE08DA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FCFC2F6369EA4A4C28155B247A7CC3 /* CLMediaPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CLMediaPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CLMediaPicker/ResourceBundle-CLMediaPickerLocalization-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CLMediaPickerLocalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2FC3FCB45A5E40C8E747A9FA161543CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FBEF9740729136CEF4E0660F96FB5D /* Pods-KingMPMusicPlayerTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KingMPMusicPlayerTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KingMPMusicPlayerTest/Pods-KingMPMusicPlayerTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KingMPMusicPlayerTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3372AAAAE43881E3FFF027060BD60514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FCFC2F6369EA4A4C28155B247A7CC3 /* CLMediaPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CLMediaPicker/CLMediaPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLMediaPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CLMediaPicker/CLMediaPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CLMediaPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		851FB5606DBE014F143E628CFFCD4B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4606AF20560423F51FF42D6FD047AAB /* Pods-KingMPMusicPlayerTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KingMPMusicPlayerTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KingMPMusicPlayerTest/Pods-KingMPMusicPlayerTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KingMPMusicPlayerTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE39A6B08FA2E63571E833FADB9D09A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FCFC2F6369EA4A4C28155B247A7CC3 /* CLMediaPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CLMediaPicker/CLMediaPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLMediaPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CLMediaPicker/CLMediaPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CLMediaPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4D4AFCA7115D0E4843B21E0F93B244C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FCFC2F6369EA4A4C28155B247A7CC3 /* CLMediaPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CLMediaPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CLMediaPicker/ResourceBundle-CLMediaPickerLocalization-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CLMediaPickerLocalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4369EDFB7CE7FD00A348FA9F18A040C3 /* Build configuration list for PBXNativeTarget "Pods-KingMPMusicPlayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC3FCB45A5E40C8E747A9FA161543CA /* Debug */,
+				851FB5606DBE014F143E628CFFCD4B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A3CBAC20C1EE29EDC52C053D78B892 /* Build configuration list for PBXNativeTarget "CLMediaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE39A6B08FA2E63571E833FADB9D09A2 /* Debug */,
+				3372AAAAE43881E3FFF027060BD60514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EA4D3CC6493EA11596CBCD779598A3 /* Build configuration list for PBXNativeTarget "CLMediaPicker-CLMediaPickerLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1523648C57FC50206653F0E3DE08DA0C /* Debug */,
+				C4D4AFCA7115D0E4843B21E0F93B244C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

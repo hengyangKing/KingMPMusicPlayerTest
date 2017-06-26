@@ -1,0 +1,16 @@
+PODS:
+  - CLMediaPicker (0.5)
+
+DEPENDENCIES:
+  - CLMediaPicker (from `../`)
+
+EXTERNAL SOURCES:
+  CLMediaPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CLMediaPicker: 81f68bc6cd343035e665b27db797b9a879fecd5d
+
+PODFILE CHECKSUM: 961a7cd9655c1f687a9313b2cae0359c0044a7a7
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymI-Uw-x9Q">
+                                <rect key="frame" x="30" y="617" width="62" height="30"/>
+                                <state key="normal" title="系统框架"/>
+                                <connections>
+                                    <action selector="Picker:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IHy-dx-IgI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZON-mF-jS3">
+                                <rect key="frame" x="30" y="60" width="315" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWD-MQ-uwa">
+                                <rect key="frame" x="30" y="111" width="315" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sMP-lx-qef">
+                                <rect key="frame" x="30" y="152" width="315" height="177"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sMP-lx-qef" secondAttribute="height" multiplier="16:9" id="f9O-L4-0pA"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cC-5v-YsD">
+                                <rect key="frame" x="290" y="617" width="55" height="30"/>
+                                <state key="normal" title="diy 框架"/>
+                                <connections>
+                                    <action selector="CLPicker:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tYE-K1-nSB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JWD-MQ-uwa" firstAttribute="top" secondItem="ZON-mF-jS3" secondAttribute="bottom" constant="30" id="CA3-Kg-vda"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8cC-5v-YsD" secondAttribute="trailing" constant="14" id="ICW-qs-pCy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZON-mF-jS3" secondAttribute="trailing" constant="14" id="Lw7-Hl-afK"/>
+                            <constraint firstItem="ymI-Uw-x9Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="N95-qB-0TD"/>
+                            <constraint firstItem="JWD-MQ-uwa" firstAttribute="trailing" secondItem="ZON-mF-jS3" secondAttribute="trailing" id="Z6c-NX-qn1"/>
+                            <constraint firstItem="sMP-lx-qef" firstAttribute="leading" secondItem="JWD-MQ-uwa" secondAttribute="leading" id="b9K-s7-heh"/>
+                            <constraint firstItem="sMP-lx-qef" firstAttribute="top" secondItem="JWD-MQ-uwa" secondAttribute="bottom" constant="20" id="bQX-eH-lm6"/>
+                            <constraint firstItem="JWD-MQ-uwa" firstAttribute="leading" secondItem="ZON-mF-jS3" secondAttribute="leading" id="bbR-ZS-Pt2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ymI-Uw-x9Q" secondAttribute="bottom" constant="20" id="eTJ-Fa-1fp"/>
+                            <constraint firstItem="8cC-5v-YsD" firstAttribute="centerY" secondItem="ymI-Uw-x9Q" secondAttribute="centerY" id="jhr-vd-ppF"/>
+                            <constraint firstItem="sMP-lx-qef" firstAttribute="trailing" secondItem="JWD-MQ-uwa" secondAttribute="trailing" id="kbT-th-AI4"/>
+                            <constraint firstItem="ZON-mF-jS3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="lSc-GJ-78f"/>
+                            <constraint firstItem="ZON-mF-jS3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="q97-uN-Fi6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="artistLabel" destination="JWD-MQ-uwa" id="a7l-2a-Jgf"/>
+                        <outlet property="cover" destination="sMP-lx-qef" id="zYj-Af-4hV"/>
+                        <outlet property="songLabel" destination="ZON-mF-jS3" id="Uaa-rJ-LkM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
