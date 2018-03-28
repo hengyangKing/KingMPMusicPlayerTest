@@ -7,8 +7,7 @@
 //
 
 #import "GVMusicPlayerController.h"
-#import <AVFoundation/AVFoundation.h>
-
+#import "KingIpodLibLocalizeTool.h"
 
 @interface NSArray (GVShuffledArray)
 @property (NS_NONATOMIC_IOSONLY, readonly, copy) NSArray *shuffled;
@@ -324,35 +323,43 @@ void audioRouteChangeListenerCallback (void *inUserData, AudioSessionPropertyID 
 
     // Create a new player item
     
-    
-    NSURL *assetUrl = [nowPlayingItem valueForProperty:MPMediaItemPropertyAssetURL];
-    
-    AVURLAsset *asset=[AVURLAsset assetWithURL:assetUrl];
-
-    
-    AVPlayerItem *playerItem = [AVPlayerItem playerItemWithURL:assetUrl];
-
-    // Either create a player or replace it
-    if (self.player) {
-        [self.player replaceCurrentItemWithPlayerItem:playerItem];
-    } else {
-        self.player = [AVPlayer playerWithPlayerItem:playerItem];
-    }
-
-    // Subscribe to the AVPlayerItem's DidPlayToEndTime notification.
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleAVPlayerItemDidPlayToEndTimeNotification) name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
-
-    // Inform delegates
-    for (id <GVMusicPlayerControllerDelegate> delegate in self.delegates) {
-        if ([delegate respondsToSelector:@selector(musicPlayer:trackDidChange:previousTrack:)]) {
-            [delegate musicPlayer:self trackDidChange:nowPlayingItem previousTrack:previousTrack];
+//映射
+    [KingIpodLibLocalizeTool localizeIpodWithConfig:^KingLocalizeConfig *(KingLocalizeConfig *config) {
+        
+        NSURL *assetUrl = [nowPlayingItem valueForProperty:MPMediaItemPropertyAssetURL];
+        
+        AVURLAsset *asset=[AVURLAsset assetWithURL:assetUrl];
+        
+        config.KingLocalizeConfigAssest(asset);
+        config.KingLocalizeConfigMediaItem(_nowPlayingItem);
+        return config;
+        
+    } andSuccess:^(NSURL *url) {
+        
+        AVPlayerItem *playerItem = [AVPlayerItem playerItemWithURL:url];
+        
+        // Either create a player or replace it
+        if (self.player) {
+            [self.player replaceCurrentItemWithPlayerItem:playerItem];
+        } else {
+            self.player = [AVPlayer playerWithPlayerItem:playerItem];
         }
-    }
-
-    // Inform iOS now playing center
-    [self doUpdateNowPlayingCenter];
-
-    self.isLoadingAsset = NO;
+        
+        // Subscribe to the AVPlayerItem's DidPlayToEndTime notification.
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleAVPlayerItemDidPlayToEndTimeNotification) name:AVPlayerItemDidPlayToEndTimeNotification object:nil];
+        
+        // Inform delegates
+        for (id <GVMusicPlayerControllerDelegate> delegate in self.delegates) {
+            if ([delegate respondsToSelector:@selector(musicPlayer:trackDidChange:previousTrack:)]) {
+                [delegate musicPlayer:self trackDidChange:nowPlayingItem previousTrack:previousTrack];
+            }
+        }
+        
+        // Inform iOS now playing center
+        [self doUpdateNowPlayingCenter];
+        
+        self.isLoadingAsset = NO;
+    }];
 }
 
 - (void)playItemAtIndex:(NSUInteger)index {

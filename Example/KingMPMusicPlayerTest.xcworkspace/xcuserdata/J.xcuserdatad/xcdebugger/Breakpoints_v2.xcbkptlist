@@ -9,14 +9,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KingMPMusicPlayerTest/ViewController.m"
-            timestampString = "520165766.885827"
+            filePath = "KingMPMusicPlayerTest/GVMusicPlayerController/GVMusicPlayerController.m"
+            timestampString = "526194558.723895"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "-clMediaPicker:didPickMediaItems:"
-            landmarkType = "7">
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "audioRouteChangeListenerCallback()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "KingMPMusicPlayerTest/GVMusicPlayerController/GVMusicPlayerController.m"
-            timestampString = "520165695.419379"
+            timestampString = "526197567.020714"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "329"
@@ -42,27 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "KingMPMusicPlayerTest/GVMusicPlayerController/GVMusicPlayerController.m"
-            timestampString = "520165122.064686"
+            timestampString = "526197683.295186"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "audioRouteChangeListenerCallback()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KingMPMusicPlayerTest/GVMusicPlayerController/GVMusicPlayerController.m"
-            timestampString = "520165801.098534"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "333"
-            endingLineNumber = "333"
+            startingLineNumber = "339"
+            endingLineNumber = "339"
             landmarkName = "-setNowPlayingItem:"
             landmarkType = "7">
          </BreakpointContent>

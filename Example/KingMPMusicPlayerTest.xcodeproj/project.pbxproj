@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0993404F1F5D14850028D356 /* KingIpodLibLocalizeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0993404E1F5D14850028D356 /* KingIpodLibLocalizeTool.m */; };
+		099340521F5D1A3F0028D356 /* KingLocalizeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 099340511F5D1A3F0028D356 /* KingLocalizeConfig.m */; };
 		09B36D011F0106680073E524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B36D001F0106680073E524 /* main.m */; };
 		09B36D041F0106680073E524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B36D031F0106680073E524 /* AppDelegate.m */; };
 		09B36D071F0106680073E524 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B36D061F0106680073E524 /* ViewController.m */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0993404D1F5D14850028D356 /* KingIpodLibLocalizeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KingIpodLibLocalizeTool.h; sourceTree = "<group>"; };
+		0993404E1F5D14850028D356 /* KingIpodLibLocalizeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KingIpodLibLocalizeTool.m; sourceTree = "<group>"; };
+		099340501F5D1A3F0028D356 /* KingLocalizeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KingLocalizeConfig.h; sourceTree = "<group>"; };
+		099340511F5D1A3F0028D356 /* KingLocalizeConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KingLocalizeConfig.m; sourceTree = "<group>"; };
 		09B36CFC1F0106680073E524 /* KingMPMusicPlayerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingMPMusicPlayerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B36D001F0106680073E524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09B36D021F0106680073E524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +113,10 @@
 			children = (
 				09B36D1A1F0112D60073E524 /* GVMusicPlayerController.h */,
 				09B36D1B1F0112D60073E524 /* GVMusicPlayerController.m */,
+				099340501F5D1A3F0028D356 /* KingLocalizeConfig.h */,
+				099340511F5D1A3F0028D356 /* KingLocalizeConfig.m */,
+				0993404D1F5D14850028D356 /* KingIpodLibLocalizeTool.h */,
+				0993404E1F5D14850028D356 /* KingIpodLibLocalizeTool.m */,
 			);
 			path = GVMusicPlayerController;
 			sourceTree = "<group>";
@@ -244,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B36D071F0106680073E524 /* ViewController.m in Sources */,
+				0993404F1F5D14850028D356 /* KingIpodLibLocalizeTool.m in Sources */,
 				09B36D041F0106680073E524 /* AppDelegate.m in Sources */,
+				099340521F5D1A3F0028D356 /* KingLocalizeConfig.m in Sources */,
 				09B36D011F0106680073E524 /* main.m in Sources */,
 				09B36D1C1F0112D60073E524 /* GVMusicPlayerController.m in Sources */,
 			);
